@@ -4,7 +4,5 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   srcDir: './client',
 
-  modules: [
-    '@vueuse/nuxt',
-  ],
+  modules: ['@vueuse/nuxt'],
 })
